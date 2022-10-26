@@ -27,57 +27,57 @@ a {
 .header-nav-item:not(:last-child) {
   margin-right: 30px;
 }
-.relative {
-  position: relative;
+.main1
+{margin: 20px 0;
+
 }
 
-.relative__img {
-  position: relative;
-  margin: 10px 0 0 auto;
-  display: block;
+.main1__flowerimg {
+  margin-left: auto;
   width: 60%;
   z-index: 3;
-}
-
-.red-box {
-  position: absolute;
-  top: 300px;
-  right: 53%;
   
-  display: block;
-  font-size: 20px;
+}
+.main1__title
+{font-size: 80px;
   z-index: 5;
+  font-family: "Indie Flower", cursive;
   color: fuchsia;
+  transform: translateY(-230%) translateX(20%);
+
+}
+.main1__text
+{transform: translateY(-630%) translateX(20%);
+
+}
+.main1__text1
+{ font-size: 28px;
+  color: fuchsia;
+ 
+}
+.main1__text2
+{
+  font-size: 20px;
+  margin-top: 10px;
+}
+.main2
+{ 
+  margin: 0 auto;
 }
 
-.text {
-  position: absolute;
-  top: 330px;
-  right: 58%;
-  display: block;
-  font-size: 14px;
-  z-index: 5;
-  
-}
-.mood{
-  position: absolute;
-    top: 80px;
-    right: 40%;
-    display: block;
-    font-size: 50px;
-    z-index: 5;
-    font-family: "Indie Flower", cursive;
-    color: fuchsia;
-}
-.jyouhou{
-  position: relative;
-  margin: 100px 0 0 320px;
-  display: block;
+.main2__title{
   width: 60%;
   z-index: 3;
   color: gray;
   font-size: 23px;
+  margin-bottom: 10px;
 
+}
+.main2__title2 {
+
+  font-family: "Indie Flower", cursive;
+  color: fuchsia;
+  margin: 0 auto;
 }
 .ull {
   width: 1000px;
@@ -107,20 +107,13 @@ a {
 }
 .sinchaku{
    
-    margin: 0 auto;
+    
     font-size: 20px;
     z-index: 5;
    width: 60%;
     
 }
-.yu{
-  position: absolute;
-  display: block;
-  margin-top: -60px;
-  margin-left:  320px;
-  font-family: "Indie Flower", cursive;
-  color: fuchsia;
-}
+
 .hinichi{
   color: gray;
 }
@@ -540,64 +533,22 @@ margin:  auto;
     z-index: 30;
 
   }
-.flex box
-{
-  display: flexbox;
-}
-.relative＿saiyoujyouhouimg
-{position: relative;
-display: block;
-left: -200px;
-z-index: 30;
-width: 50%;
-height: 50%;
-top: 165px;
 
-}
-.absolute＿saiyoujyouhou
-{
-    position: absolute;
-    display: block;
-    top: 120px;
-    left: 250px;
-    text-align: center;
-    z-index: 40;
-    color: white;
-    font-size: 30px;
-    z-index: 100;
-  }
-.saiyoujyouhou
-{
-    position: absolute;
-    display: block;
-    left: 250px;
-    text-align: center;
-    z-index: 40;
-    color: palevioletred;
-    font-size: 30px;
-    z-index: 100;
-  }
-.absolute＿inteimg
-{
-    position: absolute;
-    display: block;
-    width: 50%;
-    left: 500px;
-    z-index: 30;
-    bottom: -88px;
-  }
-.saiyoujyouhou
- {
-   position: relative;
-   display: block;
-   top: -20px;
-   left: 200px;
-   
-   z-index: 40;
-   color: white;
-   font-size: 30px;
 
- }
+.flex {
+  display: flex;
+  flex-direction: row;
+  background-color: yellow;
+}
+
+.box {
+  background-color: red;
+  margin-right: 20px;
+  font-size: 32px;
+  width: 100px;
+  height: 100px;
+}
+
  th {
  
 
