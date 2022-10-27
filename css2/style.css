@@ -61,12 +61,13 @@ a {
   margin-top: 10px;
 }
 .main2
-{ 
+{ width: 65%;
   margin: 0 auto;
+  transform: translateY(-200px);
 }
 
 .main2__title{
-  width: 60%;
+
   z-index: 3;
   color: gray;
   font-size: 23px;
@@ -77,7 +78,7 @@ a {
 
   font-family: "Indie Flower", cursive;
   color: fuchsia;
-  margin: 0 auto;
+  transform: translateY(-70px);
 }
 .ull {
   width: 1000px;
@@ -120,100 +121,68 @@ a {
 .nyusu{
   color: gray;
 }
-.relative {
-  position: relative;
+
+
+.main3__background
+{
+  height: 450px;
+  width: 100%;
+  background-color: silver;
 }
-.alaout{
-margin:  auto;
-  width: 60%;
+.main3__title {
   
-}
-.relbox{
-  position: relative;
-    margin: 500px 0 0 500px;
-    display: block;
-    margin: 0 auto;
-      width: 60%;
-      z-index: 1;
-  }
-.tech {
-  position: absolute;
-  display: block;
-  width: 60%;
-  z-index: 3;
+  text-align: center;
   color: gray;
+  transform: translateY(100px);
   font-size: 23px;
  
 
 }
-.al {
-  position: absolute;
-  display: block;
+.main3__ALOAOUT {
   font-size: 20px;
-  margin-top: -60px;
-  margin-left: 70px;
   z-index: 5;
   color: fuchsia;
   font-family: "Indie Flower", cursive;
+  z-index: 100;
+  text-align: center;
+  transform: translateY(30px);
 }
-.gr{
-  position: absolute;
-    display: block;
-    background-color: silver;
-    margin-top: -100px;
-    margin-left: -500px;
-    height: 450px;
-    width: 1400px;
+.main3__TEXT
+{transform: translateY(140px)translateX(180px);
+  font-size: 15px;
+  line-height: 1.5em;
+
 }
 
-.talk
-   {position: absolute;
-    display: block;
-    margin-left: -300px;
-    top: 100px;
-    
-   }
-.shasin
+
+.main3__img
 {
-    position: absolute;
-    display: block;
-    margin-left: 200px;
-    top: 100px;
-    z-index: 3;
-  }
-    .relative {
-      position: relative;
-    }
-  .relative＿servbox
-    {position: relative;
-      margin: 500px 0 0 200px;
-      display: block;
+transform: translateY(-50px)translateX(680px);
+}
+.main4
+{
+  margin-left: 200px;
+  margin-top: 200px;
+  margin-bottom: 500px;
+}
+  .main4__title
+    {font-size: 20px;
+     font-weight: bold;
+     transform: translateY(-30px);
+     color: gray;
      }
-    .absolute＿serves
-    {position: absolute;
-      margin-top: -30px;
-     display: block;
-    width: 500px;
-    font-weight: bold;
-    color: gray;
-    
- }
- .absolute＿servece
- {
-   position: absolute;
-   margin-top: -60px;
-   display: block;
-   width: 500px;
-   font-size: small;
-    font-family: "Indie Flower", cursive;
-    color: fuchsia;
- }
+    .main4__title2
+   {transform: translateY(-70px);
+     font-size: small;
+     font-family: "Indie Flower", cursive;
+     color: fuchsia;
+        }
+ 
 .grid__parent {
   position: absolute;
   display: grid;
   grid-template-rows: 200px 200px;
   grid-template-columns: 550px 550px;
-  z-index: 1;
 }
 .box1 {
   grid-column: 1/2;
@@ -230,131 +199,85 @@ margin:  auto;
   grid-row: 2/3;
   background: gray;
 }
-.absolute＿servekyo
+.main4__title--box1title
 {
-    position: absolute;
-    margin: 200px 0 0 420px;
-    display: block;
-    width: 500px;
-    font-size: small;
-    font-family: "Indie Flower", cursive;
+    
+   transform: translateY(220px); 
     color: white;
-    z-index: 3;
-    font-size: 25px;
-  }
-.absolute＿servesanp
-{
-    position: absolute;
-    margin: 250px 0 0 250px;
-    display: block;
-    width: 500px;
-    font-size: small;
-    font-family: "Indie Flower", cursive;
-    color: white;
-    z-index: 3;
     font-size: 20px;
+   
+    text-align: center;
   }
-.absolute＿serveimg
+.main4__title--box1text
 {
-    position: absolute;
-    margin: 50px 0 0 175px;
-    display: block;
-    width: 500px;
-    font-size: small;
-    font-family: "Indie Flower", cursive;
     color: white;
-    z-index: 3;
+    font-size: 20px;
+    transform: translateY(240px)translateX(45px);
+    line-height: 1.5em;
+  }
+ .main4__img
+{ transform: translateX(-30px)translateY(-50px);
+    
+    
+  
   }
 
 
-    .absolute＿servekyoo {
-      position: absolute;
-      margin: 40px 0 0 950px;
-      display: block;
-      width: 500px;
-      font-size: small;
-      font-family: "Indie Flower", cursive;
+    .main4__title--box2title {
+      
+      
       color: white;
-      z-index: 3;
       font-size: 20px;
+      transform: translateX(180px)translateY(50px);
     }
   
-    .absolute＿servesanpp {
-      position: absolute;
-      margin: 100px 0 0 950px;
-      display: block;
-      width: 500px;
-      font-size: small;
-      font-family: "Indie Flower", cursive;
+    .main4__title--box2text {
       color: white;
-      z-index: 3;
       font-size: 18px;
+      transform: translateX(180px)translateY(70px);
+      line-height: 1.5em;
     }
   
-    .absolute＿serveimgg {
-      position: absolute;
-      margin: 30px 0 0 550px;
-      display: block;
-      width: 500px;
-      font-size: small;
-      font-family: "Indie Flower", cursive;
-      color: white;
-      z-index: 3;
+    .main4__box2--img {
+     transform: translateX(-220px)translateY(-60px);
+
     }
 
-        .absolute＿servekyooo {
-          position: absolute;
-          margin: 240px 0 0 950px;
-          display: block;
-          width: 500px;
-          font-size: small;
-          font-family: "Indie Flower", cursive;
-          color: white;
-          z-index: 3;
+        .main4__title--box3title {
           font-size: 20px;
+          color: white;
+          transform: translateX(180px)translateY(50px);
         }
     
-        .absolute＿servesanppp {
-          position: absolute;
-          margin: 300px 0 0 950px;
-          display: block;
-          width: 500px;
-          font-size: small;
-          font-family: "Indie Flower", cursive;
+        .main4__title--box3text {
+        
           color: white;
-          z-index: 3;
           font-size: 18px;
+          transform: translateX(180px)translateY(70px);
+          line-height: 1.5em;
+          
         }
     
-        .absolute＿serveimggg {
-          position: absolute;
-          margin: 230px 0 0 550px;
-          display: block;
-          width: 500px;
-          font-size: small;
-          font-family: "Indie Flower", cursive;
-          color: white;
-          z-index: 3;
+        .main4__box3--img {
+         transform: translateX(-220px)translateY(-60px); 
         }
-      .relative＿relwbox {
-          position: relative;
-          margin: 1100px 0 0 200px;
-          display: block;
+      .main5__background {
+          width: 100%;
+          height: 640px;
+          background-color: wheat;
+          }
+      .main5__title {
           font-weight: bold;
-          color: #838383;
+          color: black;
           font-size: 20px;
-          z-index: 7;
+          transform: translateY(100px)translateX(200px);
         }
-     .absolute＿graybox {
-      position: absolute;
-      display: block;
-      background-color: #dcdcdc;
-      margin-top: -100px;
-      height: 600px;
-      width: 1400px;
-      z-index: 3;
-     }
-     .absolute＿blog
+      .main5__title2
+      {color: #CC0099;
+      transform: translateY(40px)translateX(200px);
+      }
+      
+      .main5__card
          {
            position: absolute;
            display: block;
@@ -363,6 +286,7 @@ margin:  auto;
            height: 450px;
            width: 1000px;
            z-index: 10;
+           transform: translateY(60px);
          }
          .flex__item {
            display: flex;
@@ -374,6 +298,7 @@ margin:  auto;
            box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
            border-radius: 20px;
            z-index: 5;
+           background-color: #fff;
          }
     
          .card__img img {
@@ -507,47 +432,28 @@ margin:  auto;
 
  }
 
+.main6{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
 
-
- .relative＿gaiyou
+ .main6＿title
  {
-   position: relative;
-   margin: 300px 0 0 0px;
-   display: block;
+   transform: translateX(350px)translateY(-10px);
    font-weight: bold;
    color: #838383;
    font-size: 20px;
    z-index: 7;
  }
 
- .absolute＿company
-{
-    position: absolute;
-    display: block;
-    text-align: center;
-    color: #CC0099;
-    top: -30px;
-    left: 0px;
-
+ .main6＿title2
+{   color: #CC0099;
     font-family: "Indie Flower", cursive;
-    z-index: 30;
+    transform: translateX(350px)translateY(-60px);
 
   }
 
 
-.flex {
-  display: flex;
-  flex-direction: row;
-  background-color: yellow;
-}
-
-.box {
-  background-color: red;
-  margin-right: 20px;
-  font-size: 32px;
-  width: 100px;
-  height: 100px;
-}
 
  th {
  
@@ -572,32 +478,68 @@ margin:  auto;
  table {
    border-collapse: collapse;
    /* セルの線を重ねる */
+   margin: auto;
  }
-.absolute＿kochiraoto
+ .main7
+ {display: flex;
+  width: 100%;
+  margin-bottom: 300px;
+
+ }
+ .main7＿imgleft
+ {width: 50%;
+  height: 180px;
+  text-align: left;
+
+ }
+ .main7＿imgleft img
+
 {
-    position: relative;
-    display: block;
-    top: 200px;
-    left: 300px;
-    z-index: 40;
+  width: 100%;
+}
+.main7＿imgright
+{width: 50%;
+  height: 180px;
+  text-align: left;
+
+}
+.main7＿imgright img {
+  width: 100%;
+}
+.main7＿imgleft--title
+{
+  font-size: 40px;
+  text-align: center;
+  transform: translateY(-180px);
+  color: white;
+}
+.main7＿imgright--title {
+  font-size: 40px;
+  text-align: center;
+  transform: translateY(-180px);
+  color: white;
+}
+.main8
+{margin-top: 100px;
+
+}
+.main8__text
+{
     color: grey;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: bold;
+    text-align: center;
   }
-    .absolute＿sen {
-      position: absolute;
-        display: block;
-      margin: 0 1rem;
+    .main8＿sen {
       color: #CC0099;
       width: 4px;
-      z-index: 40;
-      top: 820px;
+      
+      margin: auto;
       font-size: 30px;
-      left: 430px;
-
+      transform: translateY(10px);
     }
     .practice__btn {
-      position: absolute;
+      
       width: 200px;
       padding: 20px 0;
       color: #fff;
@@ -605,41 +547,26 @@ margin:  auto;
       background: linear-gradient(90deg, #CC3399, #993366);
       text-align: center;
       box-shadow:inset 5px -10px 10px black ;
-      margin: 100px auto 0;
       display: block;
-      top: 770px;
-      left: 350px;
+      margin: auto;
+      transform: translateY(20px);
+      z-index: 2;
     }
-    .absolute＿melebotann{
-            position: absolute;
-            margin: 112px 0 0 15px;
-            display: block;
-            top: 770px;
-            left: 350px;
-            z-index: 100;
-          }
-  .absolute＿chosakukenn{
-
-    position: absolute;
-      margin: 112px 0 0 15px;
-      display: block;
-      top: 1000px;
-      left: 350px;
-  }
+    .main8＿botan img
+    {
+      text-align: center;
+      transform: translateY(-25px)translateX(-80px);
+      z-index: 3;
+    }
+   
   .absolute＿haikei{
   
-      position: absolute;
-      display: block;
-      right: -800px;
-      z-index: 100;
-      width: 1500px;
+      width: 100%;
       height: 30px;
       background-color: #838383;
-      z-index: 10;
+      margin-bottom: auto;
     }
   .absolute＿chosakukennn{
-    position: absolute;
-      display: block;
-    z-index: 200;
-    top: 9px;
+    text-align: center;
+    transform: translateY(-20px);
   }
