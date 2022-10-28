@@ -512,7 +512,6 @@ margin: 100px auto;
 
  }
  .main7＿imgleft img
-
 {
   width: 100%;
 }
@@ -529,9 +528,8 @@ margin: 100px auto;
 .main7＿imgleft--title
 {
   font-size: 40px;
-  margin: auto;
   color: red;
-  transform: translateY(-180px)translateX(180px);
+  position: absolute;
 }
 .main7＿imgright--title {
   font-size: 40px;
