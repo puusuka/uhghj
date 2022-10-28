@@ -176,7 +176,8 @@ width: max-content;
 .main4
 {
  width: 100%;
-margin: 100px auto;
+ height: auto;
+ margin: 100px auto;
 }
   .main4__title
     {font-size: 20px;
@@ -193,9 +194,17 @@ margin: 100px auto;
  
 .grid__parent {
   display: grid;
-  grid-template-rows: 300px 300px;
+  grid-template-rows: 200px 200px;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.grid__parent div
+{text-align: center;
+  font-size: 24px;
+  color: #CC0099;
+
 }
 .box1 {
   grid-column: 1/2;
@@ -224,8 +233,8 @@ margin: 100px auto;
 .main4__title--box1text
 {
     color: white;
-    font-size: 18px;
-    transform: translateY(240px)translateX(20px);
+    font-size: 10px;
+    transform: translateY(200px)translateX(20px);
     line-height: 1.5em;
     width: max-content;
   }
@@ -241,14 +250,14 @@ margin: 100px auto;
       
       
       color: white;
-      font-size: 20px;
+      font-size: 10px;
       transform: translateX(180px)translateY(50px);
       width: max-content;
     }
   
     .main4__title--box2text {
       color: white;
-      font-size: 18px;
+      font-size: 10px;
       transform: translateX(180px)translateY(70px);
       line-height: 1.5em;
       width: max-content;
@@ -260,7 +269,7 @@ margin: 100px auto;
     }
 
         .main4__title--box3title {
-          font-size: 20px;
+          font-size: 11px;
           color: white;
           transform: translateX(180px)translateY(50px);
           width: max-content;
@@ -269,7 +278,7 @@ margin: 100px auto;
         .main4__title--box3text {
         
           color: white;
-          font-size: 18px;
+          font-size: 10px;
           transform: translateX(180px)translateY(70px);
           line-height: 1.5em;
           width: max-content;
@@ -508,7 +517,7 @@ margin: 100px auto;
  .main7＿imgleft
  {width: 50%;
   height: 180px;
-  position: relative;
+position: relative;
 
  }
  .main7＿imgleft img
@@ -519,7 +528,7 @@ margin: 100px auto;
 {width: 50%;
   height: 180px;
   text-align: left;
-
+  position: relative;
 }
 .main7＿imgright img {
   width: 100%;
@@ -528,15 +537,20 @@ margin: 100px auto;
 .main7＿imgleft--title
 {
   font-size: 40px;
-  color: red;
+  color: white;
   position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%,50%);
 }
 .main7＿imgright--title {
   font-size: 40px;
   text-align: center;
-  transform: translateY(-180px);
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
   color: white;
 }
 .main8
