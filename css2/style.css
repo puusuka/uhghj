@@ -1,4 +1,6 @@
-
+* {
+  outline: 1px solid red !important;
+}
  
 .header {
   color: gray;
@@ -47,12 +49,12 @@
   font-family: "Indie Flower", cursive;
   color: fuchsia;
   transform: translateX(20%)translateY(-200%);
-  
+  width: max-content;
 
 }
 .main1__text
 {transform: translateY(-400%) translateX(20%);
-
+ width: max-content;
 }
 .main1__text1
 { font-size: 28px;
@@ -69,6 +71,7 @@
  
   transform: translateY(-60%);
   margin-bottom: -10%;
+  
 }
 
 .main2__title{
@@ -77,14 +80,15 @@
   color: gray;
   font-size: 23px;
   margin-bottom: 10px;
-  transform: translateX(20%);
-
+  transform: translateX(200px);
+  width: max-content;
 }
 .main2__title2 {
 
   font-family: "Indie Flower", cursive;
   color: fuchsia;
   transform: translateX(20%) translateY(-70px);
+  width: max-content;
 }
 .ull {
 
@@ -136,8 +140,7 @@
   height: 450px;
   width: 100%;
   background-color: silver;
-  margin-bottom: 10%;
-  margin-right: auto;
+  margin: 5% auto;
 }
 .main3__title {
   
@@ -171,10 +174,8 @@ transform: translateY(-30%)translateX(60%);
 }
 .main4
 {
-  margin-left: 10%;
-  margin-top: 10%;
-  margin-bottom: 40%;
-  margin: 0 auto;
+ width: 80%;
+margin: 0 auto;
 }
   .main4__title
     {font-size: 20px;
@@ -190,10 +191,10 @@ transform: translateY(-30%)translateX(60%);
         }
  
 .grid__parent {
-  position: absolute;
   display: grid;
   grid-template-rows: 50% 50%;
   grid-template-columns: 50% 50%;
+  justify-items: center;
 }
 .box1 {
   grid-column: 1/2;
@@ -213,7 +214,7 @@ transform: translateY(-30%)translateX(60%);
 .main4__title--box1title
 {
     
-   transform: translateY(220px); 
+   transform: translateY(1100%)translateX(-5%); 
     color: white;
     font-size: 20px;
    
