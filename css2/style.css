@@ -48,12 +48,12 @@
   z-index: 5;
   font-family: "Indie Flower", cursive;
   color: fuchsia;
-  transform: translateX(20%)translateY(-200%);
+  transform: translateX(30%)translateY(-200%);
   width: max-content;
 
 }
 .main1__text
-{transform: translateY(-400%) translateX(20%);
+{transform: translateY(-400%) translateX(42%);
  width: max-content;
 }
 .main1__text1
@@ -87,7 +87,7 @@
 
   font-family: "Indie Flower", cursive;
   color: fuchsia;
-  transform: translateX(20%) translateY(-70px);
+  transform: translateX(500%) translateY(-70px);
   width: max-content;
 }
 .ull {
@@ -161,16 +161,17 @@
   transform: translateY(30%);
 }
 .main3__TEXT
-{transform: translateY(70%)translateX(20%);
+{transform: translateY(70%)translateX(60%);
   font-size: 15px;
   line-height: 1.5em;
-
+  width: max-content;
 }
 
 
 .main3__img
 {
-transform: translateY(-30%)translateX(60%);
+transform: translateY(-30%)translateX(220%);
+width: max-content;
 }
 .main4
 {
@@ -214,22 +215,23 @@ margin: 0 auto;
 .main4__title--box1title
 {
     
-   transform: translateY(1100%)translateX(-5%); 
+   transform: translateY(1100%)translateX(300%); 
     color: white;
     font-size: 20px;
-   
+    width: max-content;
     text-align: center;
   }
 .main4__title--box1text
 {
     color: white;
-    font-size: 20px;
-    transform: translateY(240px)translateX(45px);
+    font-size: 18px;
+    transform: translateY(240px)translateX(20px);
     line-height: 1.5em;
+    width: max-content;
   }
  .main4__img
 { transform: translateX(-30px)translateY(-50px);
-    
+   width: min-content; 
     
   
   }
@@ -241,6 +243,7 @@ margin: 0 auto;
       color: white;
       font-size: 20px;
       transform: translateX(180px)translateY(50px);
+      width: max-content;
     }
   
     .main4__title--box2text {
@@ -248,6 +251,7 @@ margin: 0 auto;
       font-size: 18px;
       transform: translateX(180px)translateY(70px);
       line-height: 1.5em;
+      width: max-content;
     }
   
     .main4__box2--img {
@@ -259,6 +263,7 @@ margin: 0 auto;
           font-size: 20px;
           color: white;
           transform: translateX(180px)translateY(50px);
+          width: max-content;
         }
     
         .main4__title--box3text {
@@ -267,7 +272,7 @@ margin: 0 auto;
           font-size: 18px;
           transform: translateX(180px)translateY(70px);
           line-height: 1.5em;
-          
+          width: max-content;
         }
     
         .main4__box3--img {
