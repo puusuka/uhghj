@@ -176,7 +176,6 @@ width: max-content;
 .main4
 {
  width: 100%;
- height: auto;
  margin: 100px auto;
 }
    .main4__title 
@@ -197,9 +196,8 @@ width: max-content;
   grid-template-rows: 200px 200px;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
-  width: 80%;
-  margin: 0 auto;
-  no
+  width: 65%;
+  
 }
 .grid__parent div
 {text-align: center;
@@ -207,7 +205,7 @@ width: max-content;
   color: #CC0099;
 
 }
-/* .box1 { 
+.box1 { 
   grid-column: 1/2;
   grid-row: 1/3;
   background: #CC0099
@@ -222,7 +220,7 @@ width: max-content;
   grid-row: 2/3;
   background: gray;
 }
-.main4__title--box1title
+ .main4__title--box1title 
 {
     
    transform: translateY(1100%)translateX(300%); 
@@ -287,15 +285,15 @@ width: max-content;
     
         .main4__box3--img {
          transform: translateX(-220px)translateY(-60px); 
-        }
-      .main5__background {
+         } 
+       .main5__background { 
           width: 100%;
           height: 700px;
-          background-color: wheat;
-          }*/
+          background-color: gainsboro;
+          }
       .main5__title {
           font-weight: bold;
-          color: black;
+          color: gray;
           font-size: 20px;
           transform: translateY(100px)translateX(200px);
           width: max-content;
@@ -488,7 +486,7 @@ width: max-content;
  
 
    border: solid 1px;
-   /* 枠線指定 */
+   
    width: 200px;
    height: 50px;
    background-color: #838383;
@@ -551,9 +549,10 @@ position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, 50%);
+    color: #fff;
   }
-  color: white;
-}
+  
+
 .main8
 {margin-top: 100px;
 
