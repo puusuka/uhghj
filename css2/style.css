@@ -699,13 +699,15 @@ position: relative;
       transform: translateY(-25px)translateX(-80px);
       z-index: 3;
     }
-   
+   .main8＿botan
+  {
+    margin-bottom: 100px;
+  }
   .absolute＿haikei{
   
       width: 100%;
       height: 30px;
       background-color: #838383;
-      margin-bottom: auto;
     }
   .absolute＿chosakukennn{
     text-align: center;
